@@ -1,6 +1,10 @@
 /*Google Web Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 #header
 {
   margin-top: 20px;
@@ -16,6 +20,11 @@
 a {
   text-decoration: none; /* 링크의 밑줄 제거 */
   color: inherit; /* 링크의 색상 제거 */
+}
+
+a:hover
+{
+  color: rgb(180,226,183);
 }
 
 @media (max-width: 600px) {

@@ -13,10 +13,11 @@
   font-size: 30px;
 }
 
-a{
+a {
   text-decoration: none; /* 링크의 밑줄 제거 */
   color: inherit; /* 링크의 색상 제거 */
 }
+
 @media (max-width: 600px) {
   .title
   {

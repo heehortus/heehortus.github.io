@@ -42,3 +42,22 @@ html {
 {
   font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width: 600px){
+  .nickname
+  {
+    font-size: 50px;
+  }
+
+  .nickname2{
+    font-size: 35px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+
+  .mycontents {
+    font-size : 15px;
+  }
+}

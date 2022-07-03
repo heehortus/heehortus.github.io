@@ -34,6 +34,13 @@ a:hover
   }
 }
 
+@media (max-width: 300px) {
+  .title
+  {
+    font-size: 15px;
+  }
+}
+
 .menu
 {
   float: right;
@@ -56,9 +63,14 @@ button
 @media (max-width: 600px) {
   button
   {
-    margin-left: auto;
     font-size: 15px;
-    color: rgb(0,0,0);
+  }
+}
+
+@media (max-width: 300px) {
+  button
+  {
+    font-size: 10px;
   }
 }
 

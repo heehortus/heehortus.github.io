@@ -1,7 +1,9 @@
 /*Google Web Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-#header h1
+#header p
 {
+  margin-left: 20px;
   font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
